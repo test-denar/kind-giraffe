@@ -21,7 +21,7 @@ logicFields:
   - grid_section.background_image_opacity
   - cta_section.background_image_opacity
   - form_section.background_image_opacity
-nodeVersion: 14
+nodeVersion: 16
 models:
   undefined:
     type: object
@@ -65,15 +65,11 @@ models:
             - type: string
               name: name
               default: ''
-              label: Name
             - type: string
               name: value
               default: ''
-              label: Value
             - type: string
               name: keyName
               default: name
-              label: Key Name
             - type: boolean
               name: relativeUrl
-              label: Relative Url
